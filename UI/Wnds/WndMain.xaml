@@ -1,0 +1,117 @@
+﻿<Window x:Class="HospitalTrackingApp.UI.Wnds.WndMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HospitalTrackingApp"
+        mc:Ignorable="d"
+        Title="Больница / Система остлеживания движения по помещениям больницы" Height="700" Width="1650" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        
+        <Image Source="/Resources/Imgs/HospitalACS.png"/>
+        <Canvas x:Name="MainCanvas">
+            <ListView x:Name="ACS0" Height="193" Width="234" Canvas.Left="722" Canvas.Top="10">
+                
+            </ListView>
+
+            <ListView x:Name="ACS1" Height="193" Width="137" Canvas.Left="961" Canvas.Top="10">
+
+            </ListView>
+
+            <ListView x:Name="ACS2" Height="193" Width="72" Canvas.Left="1101" Canvas.Top="10">
+
+            </ListView>
+
+            <ListView x:Name="ACS3" Height="193" Width="70" Canvas.Left="1178" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS4" Height="193" Width="110" Canvas.Left="1253" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS5" Height="193" Width="119" Canvas.Left="1368" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS6" Height="193" Width="148" Canvas.Left="1495" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS7" Height="193" Width="201" Canvas.Left="1442" Canvas.Top="381" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS8" Height="193" Width="201" Canvas.Left="1236" Canvas.Top="381" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS9" Height="193" Width="111" Canvas.Left="1119" Canvas.Top="381" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS10" Height="193" Width="84" Canvas.Left="1030" Canvas.Top="381" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS11" Height="193" Width="108" Canvas.Left="917" Canvas.Top="381" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS12" Height="193" Width="190" Canvas.Left="722" Canvas.Top="381" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS13" Height="193" Width="68" Canvas.Left="649" Canvas.Top="381" HorizontalAlignment="Center" VerticalAlignment="Top">
+
+            </ListView>
+
+            <ListView x:Name="ACS14" Height="193" Width="282" Canvas.Left="362" Canvas.Top="381" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS15" Height="193" Width="215" Canvas.Left="140" Canvas.Top="381" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS16" Height="193" Width="124" Canvas.Left="4" Canvas.Top="381" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS17" Height="193" Width="70" Canvas.Left="4" Canvas.Top="10">
+
+            </ListView>
+
+            <ListView x:Name="ACS18" Height="193" Width="70" Canvas.Left="79" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS19" Height="193" Width="137" Canvas.Left="154" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS20" Height="193" Width="70" Canvas.Left="296" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS21" Height="193" Width="203" Canvas.Left="366" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACS22" Height="193" Width="70" Canvas.Left="574" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+            <ListView x:Name="ACSCoridor" Height="141" Width="1650" Canvas.Top="222" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+            </ListView>
+
+        </Canvas>
+
+        <Button Grid.Row="1" Content="ЗАПУСТИТЬ СИМУЛЯЦИЮ" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Width="200" Background="LightCoral" Click="Button_Click"/>
+    </Grid>
+</Window>
